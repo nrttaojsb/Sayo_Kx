@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Sarabun&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.avatar {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+
+.data {
+  padding: 32px;
+  padding-top: 24px;
+}
+
+h1 {
+  font-family: "Prompt", sans-serif;
+  margin-bottom: 12px;
+}
+
+body {
+  font-family: "Thonburi", "Sarabun", sans-serif;
+}
+
+.card {
+  width: 450px;
+  margin: 40px;
+  border: 4px solid #222;
+}
+
+.card::after {
+  content: "";
+  display: block;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.skill-list .skill-1 {
+  background-color: aquamarine;
+}
+
+.skill-list .skill-2 {
+  background-color: rgb(255, 204, 63);
+}
+
+.skill-list .skill-3 {
+  background-color: rgb(204, 255, 2);
+}
+
+.skill-list .skill-4 {
+  background-color: rgb(255, 2, 2);
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.skill-1 {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.skill-2 {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.skill-3 {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.skill-4 {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.box {
+  width: 450px;
+  margin: 40px;
+  border: 4px solid #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
